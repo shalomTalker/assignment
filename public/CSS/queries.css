@@ -1,0 +1,123 @@
+@media only screen and (max-width: 1100px) {
+
+  body {
+    display: flex;
+    /* height: 238vh; */
+    /* width: 1050px; */
+    flex-direction: column;
+  }
+
+  .mainRender {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    position: relative;
+  }
+
+  nav {
+    height: 80px;
+    width: 100%;
+    background-color: var(--color-color1);
+  }
+
+  nav .nav-wrapper {
+    padding: 5px;
+  }
+
+  nav .nav-wrapper .brand-logo {
+    /* width: 700px; */
+    margin: auto;
+  }
+
+  nav .nav-wrapper .brand-logo .pageTitle-slogan-container .pageTitle {
+    font-size: 10px;
+  }
+
+  nav .nav-wrapper .brand-logo .pageTitle-slogan-container .pageParams-slogan {
+    font-size: 12px;
+  }
+
+  main {
+    flex-direction: column;
+    justify-content: center;
+    /* width: 1050px; */
+  }
+
+  /* about */
+  main .about,
+  main .ubook-form {
+    width: 94%;
+  }
+
+  .about {
+    padding: 5px;
+    margin: 10px 3%;
+  }
+
+  .ubook-form {
+    padding: 5px;
+    margin: 10px 3%;
+  }
+
+  /* form */
+  form {
+    width: 70%;
+    margin: auto;
+  }
+
+  form h1 {
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 700;
+  }
+
+  form .input-group {
+    width: 95%;
+    margin: auto;
+  }
+
+  form .input-group-text {
+    width: 100px;
+  }
+
+  form .form-p,
+  form button {
+    width: 65%;
+    margin: 0 17.5%;
+  }
+
+  main .google-reviews-container {
+    width: 90%;
+    margin: 5%;
+  }
+
+  main .google-reviews-container .review-container {
+    width: 100%;
+  }
+
+  main .google-reviews-container .review-container .review-img-stars {
+    display: flex;
+    flex-direction: row;
+  }
+
+  main .google-reviews-container .review-container .review-stars-link-container,
+  main .google-reviews-container .review-container .author-name,
+  main .google-reviews-container .review-container .review-text {
+    display: flex;
+    flex-direction: row;
+  }
+
+
+  main .google-reviews-container .review-container .profile-photo-url {
+    width: 75px;
+    height: 75px;
+  }
+
+
+  /* footer */
+  footer {
+    height: 50px;
+    width: 100%;
+  }
+
+}

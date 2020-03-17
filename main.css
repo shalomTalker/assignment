@@ -1,0 +1,101 @@
+/* for the star css */
+
+@import url('//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css');
+
+:root {
+    --color-color1: #246083;
+    --color-color2: #68B22D;
+    --color-bg: #F7F7F7;
+    --color-text-nav: #FEFEFE;
+    --min-nav-height: 78px;
+    --main-color1: #38414A;
+    --main-color2: #FFFFFF;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    overflow-y: scroll;
+    /* img css */
+    /* bg css */
+    /* position: relative; */
+    background-image: url('https://images.unsplash.com/photo-1534430480872-3498386e7856?ixlib=rb-1.2.1&w=1000&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.mainRender {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100vw;
+    height: 75px;
+}
+
+main {
+    margin: 85px 1vw;
+    /* display: flex; */
+    width: 98vw;
+    height: auto;
+    /* flex-direction: column;
+    justify-content: space-between; */
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+main .card {
+    float: left;
+    width: 45vw;
+    /* margin: */
+}
+
+.collection {
+    height: 40vh;
+    overflow: scroll;
+}
+
+.collection-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.collection-item .avatar {
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+}
+
+.radio-container label {
+    display: inline;
+    margin:0 15px;
+
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    text-align: center;
+}
