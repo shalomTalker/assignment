@@ -70,6 +70,10 @@ main .card {
     /* margin: */
 }
 
+.edit-customer {
+    cursor: pointer;
+}
+
 .collection {
     height: 40vh;
     overflow: scroll;
@@ -89,7 +93,7 @@ main .card {
 
 .radio-container label {
     display: inline;
-    margin:0 15px;
+    margin: 0 15px;
 
 }
 
